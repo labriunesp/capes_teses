@@ -1,0 +1,17 @@
+name: env_visualiza_dados
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pip
+  - pandas
+  - numpy
+  - jupyterlab
+  - plotly
+  - streamlit
+  - seaborn
+  - matplotlib
+  - openpyxl
+  - more-itertools
+  
