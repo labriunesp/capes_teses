@@ -76,8 +76,8 @@ def gera_dataframes():
 
 
 def main():
-    #teses = dados_teses()
-    analisa = analisa_teses2()
+    pass
+    
 
 if __name__ == '__main__':
     main()

@@ -1,4 +1,4 @@
-name: env_visualiza_dados
+name: env_capes_teses
 channels:
   - conda-forge
   - defaults
@@ -13,5 +13,5 @@ dependencies:
   - seaborn
   - matplotlib
   - openpyxl
-  - more-itertools
+  - dask
   
