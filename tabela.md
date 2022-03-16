@@ -5,22 +5,20 @@
 |ok|Nome da Produção |`NM_PRODUCAO`|`object`|`TituloTese`|`object`|
 |ok|Nome da Região da IES |`NM_REGIAO`|`object`|`Regiao`|`object`|
 |confirmar|Sigla da Entidade de Ensino|`SG_ENTIDADE_ENSINO`|`object`|`SiglaIes`|`object`|
-||Nome do Programa|`NM_PROGRAMA`|`object`|-|-|
-||-|-|-|`Uf`|`object`|
-||Nome da Entidade de Ensino|`NM_ENTIDADE_ENSINO`|`object`|-|-|
+||Nome do Programa|`NM_PROGRAMA`|`object`|`NomePrograma`|`object`|
+||Sigla da Unidade da Federação da IES |`SG_UF_IES`|`object`|`Uf`|`object`|
+||Nome da Entidade de Ensino|`NM_ENTIDADE_ENSINO`|`object`|`NomeIes`|`object`|
+||Código da Grande Área de Conhecimento a que a Produção está vinculada |`CD_GRANDE_AREA_CONHECIMENTO`|`int64`|`GrandeAreaCodigo`|`int64`|
+||Nome da Grande Área de Conhecimento a que a Produção está vinculada |`NM_GRANDE_AREA_CONHECIMENTO`|`object`|`GrandeAreaDescricao`|`object`|
+||Código da Área de Conhecimento a que o Programa de Pós-Graduação está vinculada|`CD_AREA_CONHECIMENTO`|`float64`|`AreaConhecimentoCodigo`|`int64`|
+||Nome da Área de Conhecimento a que o Programa de Pós-Graduação está vinculada|`NM_AREA_CONHECIMENTO`|`object`|`AreaConhecimento`|`object`|
+||Nome da Área de Avaliação |`NM_AREA_AVALIACAO`|`object`|`AreaAvaliacao`|`object`|
 ||Identificador do Produto no Ano Base e no Programa na Base de Dados da CAPES |`ID_ADD_PRODUCAO_INTELECTUAL`|`int64`|-|-|
-||-|-|-|`NomeIes`|`object`|
-||Identificador do Produto na Base de Dados da CAPES|`ID_PRODUCAO_INTELECTUAL`|`int64`|`ID_PRODUCAO_INTELECTUAL`|`int64`|-|-|
-||-|-|-|`NomePrograma`|`object`|
-||-|-|-|`GrandeAreaCodigo`|`int64`|
+||Identificador do Produto na Base de Dados da CAPES|`ID_PRODUCAO_INTELECTUAL`|`int64`|-|-|
 ||Identificador do Subtipo da Produção|`ID_SUBTIPO_PRODUCAO`|`int64`|-|-|
-||-|-|-|`GrandeAreaDescricao`|`object`|
 ||Nome do Subtipo da Produção |`NM_SUBTIPO_PRODUCAO`|`object`|-|-|
-||-|-|-|`AreaConhecimentoCodigo`|`int64`|
 ||Identificador da área de concentração |`ID_AREA_CONCENTRACAO`|`float64`|-|-|
-||-|-|-|`AreaConhecimento`|`object`|
 ||Nome da área de concentração |`NM_AREA_CONCENTRACAO`|`object`|-|-|
-||-|-|-|`AreaAvaliacao`|`object`|
 ||Identificador da Linha de Pesquisa|`ID_LINHA_PESQUISA`|`float64`|-|-|
 ||-|-|-|`DocumentoDiscente`|`object`|
 ||Nome da Linha de Pesquisa |`NM_LINHA_PESQUISA`|`object`|
@@ -74,17 +72,11 @@
 ||-|-|-|`DocumentoCoOrientador_4`|`object`|
 ||Nome da Região da IES |`NM_REGIAO`|`object`|-|-|
 ||-|-|-|`CoOrientador_4`|`object`|
-||Sigla da Unidade da Federação da IES |`SG_UF_IES`|`object`|-|-|
 ||Nome da Unidade da Federação da IES|`NM_UF_IES`|`object`|-|-|
-||Código da Grande Área de Conhecimento a que a Produção está vinculada |`CD_GRANDE_AREA_CONHECIMENTO`|`int64`|-|-|
-||Nome da Grande Área de Conhecimento a que a Produção está vinculada |`NM_GRANDE_AREA_CONHECIMENTO`|`object`|-|-|
-||Código da Área de Conhecimento a que o Programa de Pós-Graduação está vinculada|`CD_AREA_CONHECIMENTO`|`float64`|-|-|
-||Nome da Área de Conhecimento a que o Programa de Pós-Graduação está vinculada|`NM_AREA_CONHECIMENTO`|`object`|-|-|
 ||Código da Subárea de Conhecimento a que o Programa de Pós-Graduação está vinculada |`CD_SUBAREA_CONHECIMENTO`|`float64`|-|-|
 ||Nome da Subárea de Conhecimento a que o Programa de Pós-Graduação está vinculada |`NM_SUBAREA_CONHECIMENTO`|`object`|-|-|
 ||Código da Especialidade |`CD_ESPECIALIDADE`|`float64`|-|-|
 ||Nome da Especialidade|`NM_ESPECIALIDADE`|`object`|-|-|
-||Nome da Área de Avaliação |`NM_AREA_AVALIACAO`|`object`|-|-|
 ||Número do Volume da Produção|`NR_VOLUME`|`object`|-|-|
 ||Número de Páginas da Produção |`NR_PAGINAS`|`float64`|-|-|
 ||Nome do Idioma da Produção |`NM_IDIOMA`|`object`|-|-|
