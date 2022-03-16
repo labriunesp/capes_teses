@@ -14,6 +14,18 @@
 ||Nome da Área de Conhecimento a que o Programa de Pós-Graduação está vinculada|`NM_AREA_CONHECIMENTO`|`object`|`AreaConhecimento`|`object`|
 ||Nome da Área de Avaliação |`NM_AREA_AVALIACAO`|`object`|`AreaAvaliacao`|`object`|
 ||Nome do Discente |`NM_DISCENTE`|`object`|`Autor`|`object`|
+||Código de identificação da pessoa na base de dados da CAPES |`ID_PESSOA_DISCENTE`|`int64`|`DocumentoDiscente`|`object`|
+||Descrição do Keyword |`DS_KEYWORD`|`object`|`PalavrasChave`|`object`|
+||Número do Volume da Produção|`NR_VOLUME`|`object`|`Volume`|`int64`|
+||Número de Páginas da Produção |`NR_PAGINAS`|`float64`|`NumeroPaginas`|`int64`|
+||Descrição da Biblioteca Depositária |`DS_BIBLIOTECA_DEPOSITARIA`|`object`|`BibliotecaDepositaria`|`object`|
+||Nome do Idioma da Produção |`NM_IDIOMA`|`object`|`Idioma`|`object`|
+||Data da Titulação |`DT_TITULACAO`|`object`|`DataDefesa`|`object`|
+||Descrição do Resumo|`DS_RESUMO`|`object`|`ResumoTese`|`object`|
+||Nome da Linha de Pesquisa |`NM_LINHA_PESQUISA`|`object`|`LinhaPesquisa`|`object`|
+||Descrição da URL do Texto Completo|`DS_URL_TEXTO_COMPLETO`|`object`|`URLTextoCompleto`|`object`|
+||Código de identificação da pessoa orientador na base de dados da CAPES |`ID_PESSOA_ORIENTADOR`|`float64`|`DocumentoOrientador_1`|`object`|
+||Nome do Orientador|`NM_ORIENTADOR`|`object`|`Orientador_1`|`object`|
 ||Identificador do Produto no Ano Base e no Programa na Base de Dados da CAPES |`ID_ADD_PRODUCAO_INTELECTUAL`|`int64`|-|-|
 ||Identificador do Produto na Base de Dados da CAPES|`ID_PRODUCAO_INTELECTUAL`|`int64`|-|-|
 ||Identificador do Subtipo da Produção|`ID_SUBTIPO_PRODUCAO`|`int64`|-|-|
@@ -21,31 +33,18 @@
 ||Identificador da área de concentração |`ID_AREA_CONCENTRACAO`|`float64`|-|-|
 ||Nome da área de concentração |`NM_AREA_CONCENTRACAO`|`object`|-|-|
 ||Identificador da Linha de Pesquisa|`ID_LINHA_PESQUISA`|`float64`|-|-|
-||Código de identificação da pessoa na base de dados da CAPES |`ID_PESSOA_DISCENTE`|`int64`||`DocumentoDiscente`|`object`|
 ||Identificador do Projeto |`ID_PROJETO`|`float64`|-|-|
 ||Nome do Projeto|`NM_PROJETO`|`object`|-|-|
 ||-|-|-|`Nivel`|`object`|
 ||Data e Hora do Início da Área de Concentração|`DH_INICIO_AREA_CONC`|`object`|-|-|
-||-|-|-|`DataDefesa`|`object`|
 ||Data e Hora do Fim da Área de Concentração |`DH_FIM_AREA_CONC`|`object`|-|-|
-||Descrição do Keyword |`DS_KEYWORD`|`object`|`PalavrasChave`|`object`|
 ||Data e Hora do Início da Linha de Pesquisa |`DH_INICIO_LINHA`|`object`|-|-|
-||Número do Volume da Produção|`NR_VOLUME`|`object`|`Volume`|`int64`|
 ||Data e Hora do Fim da Linha de Pesquisa |`DH_FIM_LINHA`|`object`|-|-|
-||Número de Páginas da Produção |`NR_PAGINAS`|`float64`|`NumeroPaginas`|`int64`|
-||Data da Titulação |`DT_TITULACAO`|`object`|-|-|
-||Descrição da Biblioteca Depositária |`DS_BIBLIOTECA_DEPOSITARIA`|`object`|`BibliotecaDepositaria`|`object`|
 ||Descrição da Palavra Chave |`DS_PALAVRA_CHAVE`|`object`|-|-|
-||Nome do Idioma da Produção |`NM_IDIOMA`|`object`|`Idioma`|`object`|
 ||Descrição do Abstract|`DS_ABSTRACT`|`object`|-|-|
-||Descrição do Resumo|`DS_RESUMO`|`object`|`ResumoTese`|`object`|
-||Nome da Linha de Pesquisa |`NM_LINHA_PESQUISA`|`object`|`LinhaPesquisa`|`object`|
 ||Indicador de Expectativa de Atuação|`IN_TRABALHO_MESMA_AREA`|`float64`|-|-|
-||Descrição da URL do Texto Completo|`DS_URL_TEXTO_COMPLETO`|`object`|`URLTextoCompleto`|`object`|
 ||Nome do Tipo de vinculo|`NM_TP_VINCULO`|`object`|
-||Código de identificação da pessoa orientador na base de dados da CAPES |`ID_PESSOA_ORIENTADOR`|`float64`|`DocumentoOrientador_1`|`object`|
 ||Indicador se o Orientador Participou da Banca |`IN_ORIENT_PARTICIPOU_BANCA`|`int64`|-|-|
-||Nome do Orientador|`NM_ORIENTADOR`|`object`|`Orientador_1`|`object`|
 ||-|-|-|`DocumentoOrientador_2`|`object`|
 ||Identificador do Tipo de Expectativa da Atuação|`ID_TP_EXPECTATIVA_ATUACAO`|`int64`|-|-|
 ||-|-|-|`Orientador_2`|`object`|
