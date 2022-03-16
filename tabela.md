@@ -13,6 +13,7 @@
 ||Código da Área de Conhecimento a que o Programa de Pós-Graduação está vinculada|`CD_AREA_CONHECIMENTO`|`float64`|`AreaConhecimentoCodigo`|`int64`|
 ||Nome da Área de Conhecimento a que o Programa de Pós-Graduação está vinculada|`NM_AREA_CONHECIMENTO`|`object`|`AreaConhecimento`|`object`|
 ||Nome da Área de Avaliação |`NM_AREA_AVALIACAO`|`object`|`AreaAvaliacao`|`object`|
+||Nome do Discente |`NM_DISCENTE`|`object`|`Autor`|`object`|
 ||Identificador do Produto no Ano Base e no Programa na Base de Dados da CAPES |`ID_ADD_PRODUCAO_INTELECTUAL`|`int64`|-|-|
 ||Identificador do Produto na Base de Dados da CAPES|`ID_PRODUCAO_INTELECTUAL`|`int64`|-|-|
 ||Identificador do Subtipo da Produção|`ID_SUBTIPO_PRODUCAO`|`int64`|-|-|
@@ -22,7 +23,6 @@
 ||Identificador da Linha de Pesquisa|`ID_LINHA_PESQUISA`|`float64`|-|-|
 ||-|-|-|`DocumentoDiscente`|`object`|
 ||Nome da Linha de Pesquisa |`NM_LINHA_PESQUISA`|`object`|
-||-|-|-|`Autor`|`object`|
 ||Identificador do Projeto |`ID_PROJETO`|`float64`|-|-|
 ||Nome do Projeto|`NM_PROJETO`|`object`|-|-|
 ||-|-|-|`Nivel`|`object`|
@@ -56,7 +56,6 @@
 ||-|-|-|`DocumentoOrientador_4`|`float64`|
 ||Código de identificação da pessoa na base de dados da CAPES |`ID_PESSOA_DISCENTE`|`int64`|-|-|
 ||-|-|-|`Òrientador_4`|`float64`|
-||Nome do Discente |`NM_DISCENTE`|`object`|-|-|
 ||-|-|-|`DocumentoCoOrientador_1`|`object`|
 ||Data da Matrícula do Discente |`DT_MATRICULA`|`object`|-|-|
 ||-|-|-|`CoOrientador_1`|`object`|
