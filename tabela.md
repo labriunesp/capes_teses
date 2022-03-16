@@ -1,3 +1,5 @@
+## Tabela de variáveis
+
 |Status|Nome|2013-2020|Tipo   |1987-2012|Tipo    |
 |------|-------- |-------|-----|---------|-------|
 |ok|Ano Base de Coleta dos Dados |`AN_BASE`|`int64`|`AnoBase`|`int64`|
