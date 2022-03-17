@@ -80,4 +80,4 @@
 ||-|-|-|`DocumentoCoOrientador_4`|`object`|
 ||-|-|-|`CoOrientador_4`|`object`|
 ||Indicada se o TCC tem vínculo com alguma Produção Intelectual |`IN_TCC_COM_VINCULO_PRODUCAO`|`object`|-|-|
-||Representa os 'IDs' das produções intelectuais concatenadas, para caso o usuário deseje saber qual produção intelectual foi vinculada aquele TCC ||`ID_ADD_PRODUCAO_VINCULO_CT`|`object`|-|-|
+||Representa os 'IDs' das produções intelectuais concatenadas, para caso o usuário deseje saber qual produção intelectual foi vinculada aquele TCC |`ID_ADD_PRODUCAO_VINCULO_CT`|`object`|-|-|
