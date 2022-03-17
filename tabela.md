@@ -81,3 +81,10 @@
 ||-|-|-|`CoOrientador_4`|`object`|
 ||Indicada se o TCC tem vínculo com alguma Produção Intelectual |`IN_TCC_COM_VINCULO_PRODUCAO`|`object`|-|-|
 ||Representa os 'IDs' das produções intelectuais concatenadas, para caso o usuário deseje saber qual produção intelectual foi vinculada aquele TCC |`ID_ADD_PRODUCAO_VINCULO_CT`|`object`|-|-|
+
+
+## Problemas
+
+## Data Defesa
+
+ - DT_TITULACAO: '18/02/2013 00:00:00', '05APR2020:00:00:00'
