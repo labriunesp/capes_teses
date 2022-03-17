@@ -1,7 +1,17 @@
+## Significado de váriáveis
+
+- Grande Área de Conhecimento: aglomeração de diversas áreas do conhecimento, em virtude da afinidade de seus objetos, métodos cognitivos e recursos instrumentais refletindo contextos sociopolíticos específicos;
+- Área de Conhecimento (áreas básicas):  conjunto de conhecimentos inter-relacionados, coletivamente construído, reunido segundo a natureza do objeto de investigação com finalidades de ensino, pesquisa e aplicações práticas;
+- Subárea de Conhecimento: estabelecida em função do objeto de estudo e de procedimentos metodológicos reconhecidos e amplamente utilizados;
+- Especialidade: caracterização temática da atividade de pesquisa e ensino. Uma mesma especialidade pode ser enquadrada em diferentes grandes áreas, áreas básicas e subáreas.
+- Área de concentração
+- Área de Avaliação
+
+
 ## Tabela de variáveis
 
-|Status|Nome|2013-2020|Tipo   |1987-2012|Tipo    |
-|------|-------- |-------|-----|---------|-------|
+|Status|Nome     |2013-2020|Tipo   |1987-2012|Tipo    |
+|------|-------- |---------|-----|---------|-------|
 ||Ano Base de Coleta dos Dados |`AN_BASE`|`int64`|`AnoBase`|`int64`|
 ||Data da Titulação |`DT_TITULACAO`|`object`|`DataDefesa`|`object`|
 ||Nome da Produção |`NM_PRODUCAO`|`object`|`TituloTese`|`object`|
