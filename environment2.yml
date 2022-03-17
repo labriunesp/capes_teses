@@ -1,0 +1,18 @@
+name: env_capes_teses2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python
+  - pip
+  - pandas
+  - numpy
+  - jupyterlab
+  - plotly
+  - streamlit
+  - seaborn
+  - matplotlib
+  - openpyxl
+  - dask
+
+prefix: /media/hdvm02/env/env_capes_teses2
