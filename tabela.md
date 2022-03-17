@@ -27,8 +27,8 @@
 ||Nome da área de concentração |`NM_AREA_CONCENTRACAO`|`object`|-|-|
 ||Nome da Área de Avaliação |`NM_AREA_AVALIACAO`|`object`|`AreaAvaliacao`|`object`|
 ||Nome do Tipo de vinculo|`NM_TP_VINCULO`|`object`| `Nivel`|`object`|
-||Descrição do Keyword |`DS_KEYWORD`|`object`|`PalavrasChave`|`object`|
-||Descrição da Palavra Chave |`DS_PALAVRA_CHAVE`|`object`|-|-|
+||Descrição do Keyword |`DS_PALAVRA_CHAVE`|`object`|`PalavrasChave`|`object`|
+||Descrição da Palavra Chave |`DS_KEYWORD`|`object`|-|-|
 ||Descrição do Resumo|`DS_RESUMO`|`object`|`ResumoTese`|`object`|
 ||Descrição do Abstract|`DS_ABSTRACT`|`object`|-|-|
 ||Nome da Linha de Pesquisa |`NM_LINHA_PESQUISA`|`object`|`LinhaPesquisa`|`object`|
