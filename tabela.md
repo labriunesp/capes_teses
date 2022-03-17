@@ -12,8 +12,8 @@
 
 |Status|Nome     |2013-2020|Tipo   |1987-2012|Tipo    |
 |------|-------- |---------|-----|---------|-------|
-||Ano Base de Coleta dos Dados |`AN_BASE`|`int64`|`AnoBase`|`int64`|
-||Data da Titulação |`DT_TITULACAO`|`object`|`DataDefesa`|`object`|
+|Ok|Ano Base de Coleta dos Dados |`AN_BASE`|`int64`|`AnoBase`|`int64`|
+|Tratar|Data da Titulação |`DT_TITULACAO`|`object`|`DataDefesa`|`object`|
 ||Nome da Produção |`NM_PRODUCAO`|`object`|`TituloTese`|`object`|
 ||Nome do Programa|`NM_PROGRAMA`|`object`|`NomePrograma`|`object`|
 ||Código do Programa|`CD_PROGRAMA`|`object`|`CodigoPrograma`|`object`|
